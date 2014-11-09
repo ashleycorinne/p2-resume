@@ -9,23 +9,28 @@ footer{
     color: #a2a2a2;
 }
 .container{
-	max-width:1000px;
+	width: 80%;
+}
+
+.startHeader{
+	width: 100%;
 }
 
 .nameHeader{
 	color: white;
-	font-size: 5.0em;
+	font-size: 4.5em;
 	font-family: 'Raleway', sans-serif;
 	padding: 10px 0px;
 	display: inline-block;
+	width: 50%;
 }
 .paragraph{
 
 }
 
 .logo{
-	max-width:50px;
-	display: inline-block;
+	width: 4%;
+	display: block;
 }
 .logo:hover{
 	cursor: pointer;
@@ -33,6 +38,7 @@ footer{
 
 .navBar{
 	display: inline-block;
+	width: 49%;
 }
 .navBar ul{
 	margin:5px;
@@ -59,11 +65,8 @@ footer{
 }
 .aboutBox{
 	color:white;
-	height:200px;
-	max-width:640px;
-	margin-top: 0;
-	margin-bottom: 5px;
-	padding: 10px;
+	width: 75%;
+	display: inline-block;
 	background: #3F5666;
 	border-radius: 10px;
 	box-shadow: #333 3px 3px 10px;
@@ -103,7 +106,7 @@ footer{
 	margin-top: 30px;
 }
 .myPic{
-	max-width:220px;
+	width: 25%;
 	border-radius: 10px;
 	display: inline-block;
 	vertical-align: top;

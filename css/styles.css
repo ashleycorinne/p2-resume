@@ -34,6 +34,7 @@ footer{
 }
 .logo:hover{
 	cursor: pointer;
+	width: 5%;
 }
 
 .navBar{

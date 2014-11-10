@@ -59,8 +59,12 @@ footer{
 	cursor: pointer;
 
 }
+.selectedPage a{
+	color: #A86973;
+}
 
 .contentBox{
+	width: 100%;
 	display: inline-block;
 	margin-left: 10px;
 }

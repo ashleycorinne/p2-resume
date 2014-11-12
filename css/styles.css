@@ -14,16 +14,43 @@ footer{
 	width: 70%;
 }
 
-.nameHeader{
+.navBarHeader{
+	background:#333; 
+}
+
+.brandNameDiv{
 	color: white;
-	font-size: 3.2em;
-	font-family: 'Josefin Sans', sans-serif;
 	padding: 10px 0px;
 	display: inline-block;
 	width: 55%;
 	height: 100%;
-
+	font-size: 3.2em;
 }
+
+.nameHeader{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.cursiveNameHeader{
+	font-family: 'Cedarville Cursive', cursive;
+}
+.nameInfo{
+	font-size: 3.0em;
+	display: block;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	padding-top: 70px;
+	color: #333;
+}
+.contactInfo{
+	display: block;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #333;
+	font-size: 1.2em;
+	padding-top: 15px;
+}
+
 .paragraph{
 	padding: 5px 10px;
 }
@@ -38,6 +65,36 @@ footer{
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+.emailLink{
+	text-decoration: none;
+	padding-right: 10px;
+	color: #333;
+}
+.emailLink:hover{
+	cursor: pointer;
+	color: #A86973;
+}
+.phoneNumber{
+	padding-left: 10px;
+}
+.resumeHeaders{
+	font-size: 1.8em;
+	padding: 5px 5px 0px 5px;
+}
+section{
+	display: block;
+	padding-top: 20px;
+}
+hr{
+	padding-top: 0;
+	margin-top: 0;
+}
+.resume{
+	width: 80%;
+	display: block;
+	margin: auto;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .navBar{

@@ -57,6 +57,7 @@ footer{
 
 .logo{
 	width: 10%;
+	padding-left: 10px;
 }
 .logo:hover{
 	cursor: pointer;
@@ -104,7 +105,7 @@ hr{
 .navBar li{
 	list-style: none;
 	display: inline;
-	font-size:1.2em;
+	font-size:1.3em;
 	margin-right: 5px;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -165,7 +166,7 @@ hr{
 
 .tab { text-indent:40px; }
 .paragraph, .favLists ul{
-	font:14px Arial, Helvetica, sans-serif
+	font:1em Arial, Helvetica, sans-serif
 }
 .socialMedia{
 	font-size: 25px;
@@ -186,4 +187,37 @@ hr{
   	-o-transition: all .5s ease;
   	transition: all .5s ease;
 }
-
+.skillList{
+	list-style-type: none; 
+	font-size:1.1em;
+}
+.workHeader{
+	padding-top: 20px;
+}
+.workList{
+	font-size: 1.0em;
+}
+.bold,.workTitle{
+	font-weight: bold;
+}
+.workPlace{
+	margin-left: 20px;
+}
+.workTime{
+	float:right;
+}
+.skillList li, .workList li{
+	padding: 5px;
+}
+.languagesDiv{
+	width:50%; 
+	display:inline-block; 
+	vertical-align:top;
+}
+.programsDiv{
+	display:inline-block; 
+	vertical-align:top;
+}
+.resume{
+	padding-bottom: 70px;
+}

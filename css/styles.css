@@ -5,7 +5,7 @@ body{
 }
 footer{
     text-align: center ;
-    font-size: 12px ;
+    font-size: 1.0em;
     height: 20px ;
     color: #a2a2a2;
     padding-bottom: 30px;
@@ -34,7 +34,7 @@ footer{
 	font-family: 'Cedarville Cursive', cursive;
 }
 .nameInfo{
-	font-size: 3.0em;
+	font-size: 3.5em;
 	display: block;
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
@@ -47,7 +47,7 @@ footer{
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #333;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	padding-top: 15px;
 }
 
@@ -97,11 +97,12 @@ hr{
 	display: block;
 	margin: auto;
 	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.2em;
 }
 
 .navBar{
 	display: inline-block;
-	width: 44%;
+	font-size: 1.2em;
 }
 .navBar li{
 	list-style: none;
@@ -194,6 +195,7 @@ hr{
 }
 .workHeader{
 	padding-top: 20px;
+	font-size: 1.3em;
 }
 .workList{
 	font-size: 1.0em;
@@ -211,13 +213,14 @@ hr{
 	padding: 5px;
 }
 .languagesDiv{
-	width:50%; 
 	display:inline-block; 
 	vertical-align:top;
+	margin: 30px;
 }
 .programsDiv{
 	display:inline-block; 
 	vertical-align:top;
+	margin: 30px;
 }
 .resume{
 	padding-bottom: 70px;

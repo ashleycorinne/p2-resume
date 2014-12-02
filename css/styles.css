@@ -1,7 +1,7 @@
 
-body{
-	padding-top: 20px;
-	background: url(../img/stardust.png);
+
+html{
+	background: url("../img/subtle_dots.png")
 }
 footer{
     text-align: center ;
@@ -10,57 +10,20 @@ footer{
     color: #a2a2a2;
     padding-bottom: 30px;
 }
+hr{
+	border-color: #b2b2b2;
+}
 .container{
-	width: 70%;
+	width:100%;
+	color:#b2b2b2;
 }
-
-.navBarHeader{
-	background:#333; 
-}
-
-.brandNameDiv{
-	color: white;
-	padding: 10px 0px;
-	display: inline-block;
-	width: 55%;
+.brandLogo{
+	width: 5%;
 	height: 100%;
-	font-size: 3.2em;
+	padding: 10px;
 }
 
-.nameHeader{
-	font-family: 'Josefin Sans', sans-serif;
-}
-.cursiveNameHeader{
-	font-family: 'Cedarville Cursive', cursive;
-}
-.nameInfo{
-	font-size: 3.0em;
-	display: block;
-	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: bold;
-	padding-top: 70px;
-	color:#A86973;
-}
-.contactInfo{
-	display: block;
-	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
-	color: #333;
-	font-size: 1.2em;
-	padding-top: 15px;
-}
-
-.paragraph{
-	padding: 5px 10px;
-	font-size: 1.0em;
-}
-
-.logo{
-	width: 10%;
-	padding-left: 10px;
-}
-.logo:hover{
+.brandLogo:hover{
 	cursor: pointer;
 	-webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -68,55 +31,27 @@ footer{
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-.emailLink{
-	text-decoration: none;
-	padding-right: 10px;
-	color: #333;
-}
-.emailLink:hover{
-	cursor: pointer;
-	color: #A86973;
-}
-.phoneNumber{
-	padding-left: 10px;
-}
-.resumeHeaders{
-	font-size: 1.8em;
-	padding: 5px 5px 0px 5px;
-}
-section{
+.Logo{
+	text-align: center;
 	display: block;
-	padding-top: 20px;
 }
-hr{
-	padding-top: 0;
-	margin-top: 0;
-}
-.resume{
-	width: 80%;
-	display: block;
-	margin: auto;
-	font-family: 'Josefin Sans', sans-serif;
-}
-
 .navBar{
-	display: inline-block;
-	width: 44%;
+	text-align: center;
 }
 .navBar li{
 	list-style: none;
 	display: inline;
-	font-size:1.3em;
+	font-size:1.5em;
 	margin-right: 5px;
 	font-family: 'Josefin Sans', sans-serif;
 }
 .navBar a {              
 	text-decoration: none;
-	color: #b2b2b2;
+	color: #333;
 	padding-right: 10px;
 }
 .navBar a:hover{
-	color: white;
+	color: #b2b2b2;
 	cursor: pointer;
  	-webkit-transition: all .5s ease;
   	-moz-transition: all .5s ease;
@@ -125,9 +60,65 @@ hr{
   	transition: all .5s ease;
 }
 .selectedPage a{
-	color: white;
-
+	color: #b2b2b2;
 }
+
+.pageContent{
+	background: #333;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.pageSections{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.resumeHeaders{
+	font-size: 1.8em;
+	padding: 5px 5px 0px 5px;
+	color: white;
+}
+
+.nameInfo{
+	font-size: 3.2em;
+	display: block;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	padding-top: 70px;
+	color:white;
+}
+.contactInfo{
+	display: block;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #b2b2b2;
+	font-size: 1.4em;
+	padding-top: 15px;
+}
+
+.emailLink{
+	text-decoration: none;
+	padding-right: 10px;
+	color:#b2b2b2;
+}
+.emailLink:hover{
+	cursor: pointer;
+	color: #A86973;
+}
+.phoneNumber{
+	padding-left: 10px;
+}
+
+section{
+	display: block;
+	padding-top: 20px;
+}
+hr{
+	padding-top: 0;
+	margin-top: 0;
+}
+
 
 
 .contentBox{
@@ -218,7 +209,4 @@ hr{
 .programsDiv{
 	display:inline-block; 
 	vertical-align:top;
-}
-.resume{
-	padding-bottom: 70px;
 }

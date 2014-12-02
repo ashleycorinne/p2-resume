@@ -5,7 +5,7 @@ html{
 }
 footer{
     text-align: center ;
-    font-size: 12px ;
+    font-size: 1.0em;
     height: 20px ;
     color: #a2a2a2;
     padding-bottom: 30px;
@@ -119,6 +119,43 @@ hr{
 	margin-top: 0;
 }
 
+.resume{
+	width: 80%;
+	display: block;
+	margin: auto;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.2em;
+}
+
+.navBar{
+	display: inline-block;
+	font-size: 1.2em;
+}
+.navBar li{
+	list-style: none;
+	display: inline;
+	font-size:1.3em;
+	margin-right: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.navBar a {              
+	text-decoration: none;
+	color: #b2b2b2;
+	padding-right: 10px;
+}
+.navBar a:hover{
+	color: white;
+	cursor: pointer;
+ 	-webkit-transition: all .5s ease;
+  	-moz-transition: all .5s ease;
+  	-ms-transition: all .5s ease;
+  	-o-transition: all .5s ease;
+  	transition: all .5s ease;
+}
+.selectedPage a{
+	color: white;
+
+}
 
 
 .contentBox{
@@ -185,6 +222,7 @@ hr{
 }
 .workHeader{
 	padding-top: 20px;
+	font-size: 1.3em;
 }
 .workList{
 	font-size: 1.0em;
@@ -202,11 +240,12 @@ hr{
 	padding: 5px;
 }
 .languagesDiv{
-	width:50%; 
 	display:inline-block; 
 	vertical-align:top;
+	margin: 30px;
 }
 .programsDiv{
 	display:inline-block; 
 	vertical-align:top;
+	margin: 30px;
 }

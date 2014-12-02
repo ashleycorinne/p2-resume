@@ -41,7 +41,7 @@ hr{
 .navBar li{
 	list-style: none;
 	display: inline;
-	font-size:1.5em;
+	font-size:2.0em;
 	margin-right: 5px;
 	font-family: 'Josefin Sans', sans-serif;
 }
@@ -51,7 +51,7 @@ hr{
 	padding-right: 10px;
 }
 .navBar a:hover{
-	color: #b2b2b2;
+	color: #A86973;
 	cursor: pointer;
  	-webkit-transition: all .5s ease;
   	-moz-transition: all .5s ease;
@@ -127,35 +127,6 @@ hr{
 	font-size: 1.2em;
 }
 
-.navBar{
-	display: inline-block;
-	font-size: 1.2em;
-}
-.navBar li{
-	list-style: none;
-	display: inline;
-	font-size:1.3em;
-	margin-right: 5px;
-	font-family: 'Josefin Sans', sans-serif;
-}
-.navBar a {              
-	text-decoration: none;
-	color: #b2b2b2;
-	padding-right: 10px;
-}
-.navBar a:hover{
-	color: white;
-	cursor: pointer;
- 	-webkit-transition: all .5s ease;
-  	-moz-transition: all .5s ease;
-  	-ms-transition: all .5s ease;
-  	-o-transition: all .5s ease;
-  	transition: all .5s ease;
-}
-.selectedPage a{
-	color: white;
-
-}
 
 
 .contentBox{
@@ -198,11 +169,10 @@ hr{
 	font:1em Arial, Helvetica, sans-serif
 }
 .socialMedia{
-	font-size: 25px;
-	display: inline-block;
-	padding-left:15px;
+	text-align: center;
 }
 .socialMedia i{
+	font-size: 2.0em;
 	color:#b2b2b2;
 	padding-right: 5px;
 }

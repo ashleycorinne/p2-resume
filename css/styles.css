@@ -21,15 +21,27 @@ hr{
 	width: 5%;
 	height: 100%;
 	padding: 10px;
+	position: relative;
+	z-index: 1;
 }
 
 .brandLogo:hover{
 	cursor: pointer;
-	-webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+    -webkit-animation: box 1s;
+}
+@-webkit-keyframes box {
+ 0% {
+ 	width: 5%;
+        transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;
+        
+ }
+ 100% {
+ 	width:8%;
+        transform: translate3d(650px, 250px, 0px);
+        
+ }
+
 }
 .Logo{
 	text-align: center;

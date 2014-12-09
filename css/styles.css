@@ -27,22 +27,14 @@ hr{
 
 .brandLogo:hover{
 	cursor: pointer;
-    -webkit-animation: box 1s;
+	-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
-@-webkit-keyframes box {
- 0% {
- 	width: 5%;
-        transform: translate3d(0px, 0px, 0px);
-        animation-timing-function: ease-in;
-        
- }
- 100% {
- 	width:8%;
-        transform: translate3d(860px, 260px, 0px);
-        
- }
 
-}
 .Logo{
 	text-align: center;
 	display: block;

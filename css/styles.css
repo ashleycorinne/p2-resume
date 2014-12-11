@@ -245,4 +245,7 @@ hr{
 	.languagesDiv,.programsDiv{
 		display: block;
 	}
+	img{
+		width:100%;
+	}
 }

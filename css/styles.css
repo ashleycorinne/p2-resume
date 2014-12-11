@@ -246,6 +246,7 @@ ul{
 	}
 	.resumeHeaders{
 		font-size: 1.5em;
+		font-weight: bold;
 	}
 	.workTitle,.workPlace,.workTime{
 		display: block;

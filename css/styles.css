@@ -229,6 +229,9 @@ hr{
 .mcdesigns{
 	width:50%;
 }
+ul{
+	padding: 0px;
+}
 
 @media only screen and (max-device-width: 480px) {
 

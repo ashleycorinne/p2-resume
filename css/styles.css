@@ -88,6 +88,7 @@ hr{
 	font-size: 1.8em;
 	padding: 5px 5px 0px 5px;
 	color: white;
+	font-weight: bold;
 }
 
 .nameInfo{
@@ -246,7 +247,6 @@ ul{
 	}
 	.resumeHeaders{
 		font-size: 1.5em;
-		font-weight: bold;
 	}
 	.workTitle,.workPlace,.workTime{
 		display: block;

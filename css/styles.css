@@ -226,3 +226,13 @@ hr{
 	display:inline-block; 
 	vertical-align:top;
 }
+
+@media only screen and (max-device-width: 480px) {
+
+	.contactInfo{
+		font-size: 1.2em;
+	}
+	.nameInfo{
+		font-size: 2.0em;
+	}
+}
